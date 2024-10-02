@@ -1,8 +1,10 @@
-<h1>Creat a new Category</h1>
-<%= simple_form_for @category do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name %>
-  <%= f.submit %>
-<% end %>
-<br>
-<%= link_to "<<< Back", categories_path %>
+<div class="form-new mt-4">
+  <h1>Creat a new Category</h1>
+  <%= simple_form_for @category do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.submit class: "btn btn-flat" %>
+  <% end %>
+  <br>
+  <%= link_to "<<< Back", categories_path %>
+</div>
