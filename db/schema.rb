@@ -60,7 +60,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_02_100624) do
 
   create_table "recipes", force: :cascade do |t|
     t.string "name"
-    t.text "descreption"
+    t.text "description"
     t.string "image_url"
     t.float "rating"
     t.datetime "created_at", null: false

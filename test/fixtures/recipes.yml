@@ -2,12 +2,12 @@
 
 one:
   name: MyString
-  descreption: MyText
+  description: MyText
   image_url: MyString
   rating: 1.5
 
 two:
   name: MyString
-  descreption: MyText
+  description: MyText
   image_url: MyString
   rating: 1.5
