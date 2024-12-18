@@ -20,7 +20,7 @@ gem "jbuilder"
 
 gem "bootstrap", "~> 5.2"
 gem "autoprefixer-rails"
-gem "font-awesome-sass", "~> 6.1"
+gem "font-awesome-sass", "~> 6.7"
 gem "simple_form"
 gem "sassc-rails"
 
